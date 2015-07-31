@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
+  background: -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+}
+
+body {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+h1 {
+  font-family: 'source code pro,' 'Courier New', courier, monospace;
+}
+
+.media {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 25px 10px;
+}
+
+.quote {
+  font-size: 16px;
+  font-family: 'Roboto', 'Helvetica Neue,' arial, sans-serif;
+  font-weight: 100;
+}
+
+.source {
+  font-size: 10px;
+  font-family: 'Roboto', 'Helvetica Neue,' arial, sans-serif;
+  font-weight: 300;
+}
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  padding: 30px;
+}
+
+.cover {
+  padding: 0 20px;
+}
+
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255, 255, 255, .5);
+}
+
+
+@media (min-width: 768px) {
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
