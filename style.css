@@ -4,23 +4,36 @@ html {
 
 body {
   padding-top: 1.5rem;
+  font-family: 'Roboto', 'San Francisco', 'Helvetica', sans-serif;
 }
 
 .well {
   background-color: transparent !important;
   border: none;
   box-shadow: none;
-  padding: 20px 0;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2.25rem;
   font-family: 'Courier New', courier, monospace;
   font-weight: 600;
+  margin-bottom: 0;
+}
+
+h2 { 
+  margin-top: 10px;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.email { 
+  margin-bottom: 15px;
 }
 
 .quote {
-  font-size: .938rem;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #000;
 }
 
 .source {
@@ -30,13 +43,13 @@ h1 {
 
 .source, .source a {
   color: #aaa;
-  font-size: .75rem;
+  font-size: .7rem;
   font-weight: 300;
 }
 
 .source-pub {
   text-transform: uppercase;
-  font-size: .625rem;
+  font-size: .7rem;
 }
 
 
