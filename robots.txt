@@ -1,2 +1,5 @@
 User-agent: CuteStat
 Disallow: /
+
+User-agent: EasyCounter
+Disallow: /
