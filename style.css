@@ -1,48 +1,22 @@
-
-.jumbotron {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	margin-bottom: 0;
-	background-color: #fff;
-}
-@media (min-width: 768px) {
-	.jumbotron {
-		padding-top: 6rem;
-		padding-bottom: 6rem;
-	}
-}
-
-.jumbotron p:last-child {
-	margin-bottom: 0;
-}
-
-.jumbotron-heading {
-	font-weight: 300;
-}
-
-.jumbotron .container {
-	max-width: 40rem;
-}
-
 html {
-	font-size: 16px;
+	font-size: 12px;
 }
 
 body {
 	font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Segoe UI', Roboto, Oxygen, Avenir, 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-blockquote p {
-	font-size: 80%;
-	font-style: italic;
-}
-
-.blockquote-footer {
-	font-size: 70%;
+.btn-default {
+	border: 1px solid rgba(0,0,0,.1);
 }
 
 .card {
 	border: 1px solid rgba(0,0,0,0);
+}
+
+blockquote p {
+	font-style: italic;
+	margin-bottom: 0.5rem;
 }
 
 cite a {
